@@ -1,0 +1,72 @@
+{
+    "hi" : {
+        "reply": "Hi, How are you doing"
+    },
+    "i'm doing good": {
+        "reply": "Great!, How can i help you?"
+    },
+    "i'm doing great": {
+        "reply": "Great!, How can i help you?"
+    },
+    "i'm doing fine": {
+        "reply": "Great!, How can i help you?"
+    },
+    "how is the weather": {
+        "reply": "Its cloudy and most likely to rain"
+    },
+    "what is the temprature": {
+        "reply": "Around 25C"
+    },
+    "what is my account number":{
+        "reply": "221944092"
+    },
+    "account number":{
+        "reply": "221944092"
+    },
+    "dob":{
+        "reply": "10/11/1991"
+    },
+    "date of birth":{
+        "reply": "10/11/1991"
+    },
+    "salary":{
+        "reply":"1000000"
+    },
+    "project":{
+        "reply": "IBM - Eagle"
+    },
+    "project location":{
+        "reply": "kochi"
+    },
+    "location":{
+        "reply": "kochi"
+    },
+    "employee id":{
+        "reply": "1234563"
+    },
+    "empid":{
+        "reply": "1234563"
+    },
+    "emp-id":{
+        "reply": "1234563"
+    },
+    "what is my employee id":{
+        "reply": "1234563"
+    },
+    "annual leaves balance":{
+        "reply": "10"
+    },
+    "leaves balance":{
+        "reply": "10"
+    },
+    "last drawn salary":{
+        "reply": "1234"
+    },
+    "last month salary":{
+        "reply": "1234"
+    },
+    "last salary":{
+        "reply": "1234"
+    }
+
+}

@@ -1,0 +1,162 @@
+{
+    "traceId": "12e5cfe4-270f-40c9-ae11-21a000760116",
+    "adobeMappedData": {},
+    "creationTimestamp": 1631779427916,
+    "context": {
+        "cookieDomain": "expedia.co.in",
+        "pageIdentity": {
+            "lineOfBusiness": "F",
+            "pageIdentifier": "page.Flight-Search-Roundtrip.Out",
+            "funnelLocation": 20
+        },
+        "executeXdid": true,
+        "fpCookieDomainPeriods": 3,
+        "tealiumAccountDetailsPWA": {
+            "tealiumAccountName": "expedia",
+            "tealiumProfileName": "pwa-bex"
+        },
+        "cookieDomainPeriods": 2,
+        "beaconOffConfig": {
+            "settings": {
+                "sendToAdobeServerSide": false,
+                "sendToS3": false,
+                "adobeSuiteAccount": "",
+                "adobeSuiteUrl": "",
+                "sendToAdobeClientSide": true
+            },
+            "bucketing": {
+                "bucketValue": 0,
+                "experimentId": "99991",
+                "experimentInstance": "99990"
+            },
+            "error": "No rule found for traceId=12e5cfe4-270f-40c9-ae11-21a000760116 and duaid=e99c8adf-bc63-4abb-9d07-a47cd4818ea2. Using sendToAdobeClientSide=true",
+            "rulesMatched": ""
+        },
+        "tealiumAccountDetails": {
+            "tealiumAccountName": "expedia",
+            "tealiumProfileName": "main"
+        },
+        "entryPageView": false,
+        "beaconEnabled": true,
+        "newVisit": false
+    },
+    "tealiumUtagData": {
+        "lineOfBusiness": "Flight",
+        "siteCountryCode": "IN",
+        "tpid": 27,
+        "gaUserId": -1,
+        "pageInfo": {
+            "lineOfBusiness": "Flight",
+            "requestURL": "https://www.expedia.co.in/api/track",
+            "funnelLocation": "SEARCH_RESULTS",
+            "currency": "INR",
+            "language": "en",
+            "langId": "2057",
+            "pageName": "page.Flight-Search-Roundtrip.Out",
+            "xLineOfBusiness": "FLIGHT"
+        },
+        "loggedUser": -1,
+        "tc_vars": {
+            "tpid": 27,
+            "privacy_gdpr_consent": true,
+            "point_of_sale_locale": "IN",
+            "event_page_funnel_location": "SEARCH_RESULTS",
+            "booking_product_line": "F",
+            "marketing_same_session_marketing_code": "Brand.DTI",
+            "event_page_product_line": "FLIGHT",
+            "point_of_sale_eg_brand_name": "expedia",
+            "timestamps_received_at": "2021-09-16T08:03:47.912Z",
+            "user_type": "ANONYMOUS",
+            "line_of_business": "Flight",
+            "event_page_name": "page.Flight-Search-Roundtrip.Out",
+            "pos_id": "EXPEDIA_IN",
+            "domain": "FLIGHT",
+            "site_id": 27,
+            "host": "www.expedia.co.in",
+            "point_of_sale": "Expedia India",
+            "event_page_name_detailed": "page.Flight-Search-Roundtrip.Out",
+            "default_domain": "www.expedia.co.in",
+            "point_of_sale_site_currency_code": "INR",
+            "privacy_ccpa_consent": true,
+            "identifiers_device_user_agent_id": "e99c8adf-bc63-4abb-9d07-a47cd4818ea2"
+        },
+        "siteName": "www.expedia.co.in",
+        "language": "en",
+        "tuid": -1,
+        "locale": "en_GB",
+        "expUserProfileId": -1,
+        "pageName": "page.Flight-Search-Roundtrip.Out",
+        "xLineOfBusiness": "FLIGHT",
+        "eapid": 0,
+        "domain": "FLIGHT",
+        "funnelLocation": "SEARCH_RESULTS",
+        "context": {
+            "site": {
+                "companyCode": "10124",
+                "tpid": 27,
+                "eapid": 0,
+                "brandId": "expedia",
+                "operatingUnitId": "1408",
+                "siteId": 27,
+                "siteName": "www.expedia.co.in",
+                "jurisdictionCode": "IND",
+                "managementUnitCode": "1185",
+                "defaultCountry": "IN"
+            },
+            "privacyContext": {
+                "optInPrivacySelection": {
+                    "isSet": false,
+                    "yesSelected": false
+                },
+                "dataProtectionGuideline": "GDPR",
+                "canTrack": true,
+                "canSell": true
+            },
+            "requestId": "12e5cfe4-270f-40c9-ae11-21a000760116",
+            "hopScotchSessionId": "70e4ff02-9cd1-4bc0-83f1-9c570f4b2bfd",
+            "clientInfo": {
+                "deviceCharacteristics": {
+                    "brandName": "Chrome",
+                    "deviceOs": "Mac OS X",
+                    "mobileBrowserVersion": "93",
+                    "resolutionHeight": 800,
+                    "mobile": false,
+                    "deviceOsVersion": "10.15",
+                    "mobileBrowser": "Chrome",
+                    "physicalScreenHeight": 175,
+                    "modelName": "93",
+                    "tablet": false,
+                    "resolutionWidth": 1280,
+                    "wirelessDevice": false,
+                    "physicalScreenWidth": 280
+                },
+                "os": "Mac OS X",
+                "ipAddress": "59.97.6.***",
+                "fingerprintId": "",
+                "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+                "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36",
+                "requestMadeByBot": false
+            },
+            "sessionId": "70e4ff02-9cd1-4bc0-83f1-9c570f4b2bfd",
+            "user": {
+                "accountType": "FULL",
+                "guid": "e99c8adf-bc63-4abb-9d07-a47cd4818ea2",
+                "registered": false,
+                "tuid": -1,
+                "userType": "ANONYMOUS",
+                "expUserProfileId": -1,
+                "softAccount": false
+            }
+        },
+        "siteId": 27,
+        "guid": "e99c8adf-bc63-4abb-9d07-a47cd4818ea2",
+        "tc_context": {
+            "enabled": false
+        },
+        "brand": "expedia",
+        "currencyCode": "INR",
+        "lobDomain": "FLIGHT"
+    },
+    "version": "5.1.0",
+    "applicationName": "uis-prime-track-api"
+}
