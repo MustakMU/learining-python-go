@@ -32,30 +32,21 @@ price = soup.find_all('span', attrs={'data-stid': 'content-hotel-display-price'}
 hotelname_list = [a.getText().strip() for a in hotelname]
 neighborhood_list = []
 for ng in neighborhood:
-    print('ng ',type(ng))
-    print(str(ng).split('>')[1].split('<')[0])
     neighborhood_list.append(str(ng).split('>')[1].split('<')[0])
-
-price_list = []
-for pr in price:
-    p = str(pr.getText().strip())
-    print('pr ',pr)
-    print('p ',p)
-    print('p ',p.split('Rs')[1])
-    price_list.append(p.split('Rs')[1])
-
-print(len(hotelname_list))
-print(len(price_list))
-print(len(neighborhood_list))
 
 if len(hotelname_list) == 0 :
     print("hotels not found")
+else:
+    price_list = []
+    for pr in price:
+        p = str(pr.getText().strip())
+        price_list.append(p.split('Rs')[1])
 
-hotels = {"Neighborhood": neighborhood_list,
-            "Hotel Name" : hotelname_list,    
-            "Price": price_list}    
-hotels_data = pd.DataFrame(hotels)
+    hotels = {"Neighborhood": neighborhood_list,
+                "Hotel Name" : hotelname_list,    
+                "Price": price_list}    
+    hotels_data = pd.DataFrame(hotels)
 
-hotels_data.to_excel("hotels.xlsx", index=None)
+    hotels_data.to_excel("hotels.xlsx", index=None)
 
-print(hotels_data)
+    print(hotels_data)

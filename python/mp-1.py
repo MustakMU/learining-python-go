@@ -37,21 +37,20 @@ departure_time_list = [a.getText().strip() for a in departure_time]
 arrival_departure_list = [a.getText().strip() for a in arrival_departure]
 journey_duration_list = [b.getText().strip() for b in journey_duration]
 
-price_column_list = []
-for pr in price_column:
-    p = str(pr.getText().strip())
-    print('p ',p.split('Rs')[1])
-    price_column_list.append(p.split('Rs')[1])
-
 if len(departure_time_list) == 0 :
     print("Flights not found")
+else:
+    price_column_list = []
+    for pr in price_column:
+        p = str(pr.getText().strip())
+        price_column_list.append(p.split('Rs')[1])
 
-flights = {"Arrival Departure": arrival_departure_list,
-            "Departure Time" : departure_time_list,    
-            "Journey Duration": journey_duration_list,
-            "Price": price_column_list}    
-flights_data = pd.DataFrame(flights)
+    flights = {"Arrival Departure": arrival_departure_list,
+               "Departure Time" :   departure_time_list,    
+               "Journey Duration":  journey_duration_list,
+               "Price":             price_column_list}    
 
-flights_data.to_excel("flights.xlsx", index=None)
+    flights_data = pd.DataFrame(flights)
+    flights_data.to_excel("flights.xlsx", index=None)
 
-print(flights_data)
+    print(flights_data)
